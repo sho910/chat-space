@@ -1,0 +1,38 @@
+.Chat-main
+  .Chat-main__group
+    .Chat-main__group__detail
+      .Chat-main__group__detail__current-group
+        .Chat-main__group__detail__current-group__group-name
+          %div Sample group    
+        .Chat-main__group__detail__current-group__member-name
+          %div Member :Hitomi
+      .Chat-main__group__detail__edit
+        Edit
+        /* = link_to "#" do 
+  .Chat-main__message
+    .Chat-main__message__detail
+      .Chat-main__message__detail__user-name
+        %div Hitomi
+      .Chat-main__message__detail__update-time
+        %div 2020/7/24 
+    .Chat-main__message__comment
+      %div Hi!
+    .Chat-main__message__detail
+      .Chat-main__message__detail__user-name
+        %div koto
+      .Chat-main__message__detail__update-time
+        %div 2020/7/25
+    .Chat-main__message__comment
+      %div Hi there!
+  .Chat-main__footer
+    .Chat-main__footer__form
+      .Chat-main__footer__form__contents
+        .Chat-main__footer__form__contents__message
+        %input.comments{type: :text, placeholder: "type a message"}
+        .Chat-main__footer__form__contents__image
+          .Chat-main__footer__form__contents__image__icon
+            %label{class: "input-box__image"}
+              = icon('far', 'image')
+              %input.hidden{type: "file"}
+      .Chat-main__footer__form__submit
+        %input.btn{type: :submit, value: "Send"}
