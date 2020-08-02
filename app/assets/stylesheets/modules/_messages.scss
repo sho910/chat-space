@@ -49,12 +49,14 @@
     display: block;
     &__group {
       padding: 20px 20px 40px 20px;
-      &__group-name {
-        font-size: 15px
+      &__name {
+        font-size: 15px;
+        color: #ffffff;
       }
-      &__group-message {
+      &__message {
         font-size: 11px;
         margin-top: 5px;
+        color: #ffffff;
       }
     }
   }
