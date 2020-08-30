@@ -8,7 +8,6 @@ $(function() {
                 `;
     $("#UserSearchResult").append(html);
   }
-
   function addNoUser() {
     let html = `
                 <div class="ChatMember clearfix">
@@ -26,7 +25,6 @@ $(function() {
                 </div>`;
     $(".ChatMembers").append(html);
   }
-
   $("#UserSearch__field").on("keyup", function() {
     let input = $("#UserSearch__field").val();
     $.ajax({
