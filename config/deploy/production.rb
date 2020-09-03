@@ -1,5 +1,3 @@
-server '54.168.155.55', user: 'ec2-user', roles: %w{app db web}
-
 
 # server-based syntax
 # ======================
@@ -62,3 +60,6 @@ server '54.168.155.55', user: 'ec2-user', roles: %w{app db web}
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+
+server '54.168.155.55', user: 'ec2-user', roles: %w{app db web}
+
